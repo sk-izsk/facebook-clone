@@ -1,32 +1,12 @@
 import { createMuiTheme, responsiveFontSizes, Theme } from '@material-ui/core';
 import { makeBorder } from './border';
 
-const colors: {
-  red: string;
-  redLight: string;
-  greyBorder: string;
-  darkBlue: string;
-  primaryPink: string;
-  secondaryPink: string;
-  pink: string;
-  yellow: string;
-  lighterYellow: string;
-  white: string;
-  blue: string;
-  green: string;
-} = {
-  red: '#E64D61',
-  redLight: '#FFD3D9',
-  greyBorder: '#CBCBCB',
-  darkBlue: '#1E1735',
-  primaryPink: '#E63647',
-  secondaryPink: '#F55752',
-  pink: '#FB5B91',
-  yellow: '#F2D535',
-  lighterYellow: '#EED66E',
-  white: '#EEFCF3',
-  blue: '#2196f3',
-  green: '#00B96F',
+const colors = {
+  white: 'white',
+  blue: '#1877f2',
+  boxShadow: 'rgba(0,0,0,0.75)',
+  gray: '#eff2f5',
+  secondaryGray: 'gray',
 };
 
 export interface CustomTheme extends Theme {
@@ -38,37 +18,39 @@ let muiTheme: Theme = createMuiTheme({
     background: {
       default: '#F8F9F9',
     },
-    error: {
-      light: colors.redLight,
-      main: colors.red,
-    },
-    info: {
-      main: colors.darkBlue,
-    },
+    // error: {
+    //   // light: colors.redLight,
+    //   // main: colors.red,
+    // },
+    // info: {
+    //   // main: colors.darkBlue,
+    // },
     primary: {
-      main: colors.darkBlue,
-      light: colors.blue,
+      main: colors.blue,
+      light: colors.white,
+      dark: colors.boxShadow,
     },
-    secondary: {
-      main: colors.primaryPink,
-      light: colors.secondaryPink,
-    },
-    success: {
-      contrastText: colors.white,
-      main: colors.pink,
-      light: colors.green,
-    },
-    text: {
-      primary: '#4A4A4A',
-      secondary: colors.darkBlue,
-    },
-    warning: {
-      contrastText: colors.white,
-      main: colors.yellow,
-      light: colors.lighterYellow,
-    },
+    // secondary: {
+    //   // main: colors.primaryPink,
+    //   // light: colors.secondaryPink,
+    // },
+    // success: {
+    //   contrastText: colors.white,
+    //   main: colors.pink,
+    //   light: colors.green,
+    // },
+    // text: {
+    //   primary: '#4A4A4A',
+    //   secondary: colors.darkBlue,
+    // },
+    // warning: {
+    //   contrastText: colors.white,
+    //   main: colors.yellow,
+    //   light: colors.lighterYellow,
+    // },
     grey: {
-      400: colors.greyBorder,
+      400: colors.gray,
+      300: colors.secondaryGray,
     },
   },
   props: {
