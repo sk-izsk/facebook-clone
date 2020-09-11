@@ -7,6 +7,7 @@ const colors = {
   boxShadow: 'rgba(0,0,0,0.75)',
   gray: '#eff2f5',
   secondaryGray: 'gray',
+  lightGray: 'lightgray',
 };
 
 export interface CustomTheme extends Theme {
@@ -51,6 +52,7 @@ let muiTheme: Theme = createMuiTheme({
     grey: {
       400: colors.gray,
       300: colors.secondaryGray,
+      100: colors.lightGray,
     },
   },
   props: {
