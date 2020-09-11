@@ -8,6 +8,9 @@ const colors = {
   gray: '#eff2f5',
   secondaryGray: 'gray',
   lightGray: 'lightgray',
+  red: '#ff0000',
+  green: 'green',
+  orange: 'orange',
 };
 
 export interface CustomTheme extends Theme {
@@ -31,10 +34,11 @@ let muiTheme: Theme = createMuiTheme({
       light: colors.white,
       dark: colors.boxShadow,
     },
-    // secondary: {
-    //   // main: colors.primaryPink,
-    //   // light: colors.secondaryPink,
-    // },
+    secondary: {
+      main: colors.red,
+      dark: colors.orange,
+      light: colors.green,
+    },
     // success: {
     //   contrastText: colors.white,
     //   main: colors.pink,

@@ -6,8 +6,8 @@ import { FiFlag } from 'react-icons/fi';
 import { GiMedicalPack } from 'react-icons/gi';
 import { MdExpandMore, MdVideoLibrary } from 'react-icons/md';
 import { SiMessenger } from 'react-icons/si';
+import { SidebarRow } from '../../components';
 import { CustomTheme, theme } from '../../theme/muiTheme';
-import { SidebarRow } from '../SidebarRows/SidebarRows';
 
 export interface SidebarProps {}
 
