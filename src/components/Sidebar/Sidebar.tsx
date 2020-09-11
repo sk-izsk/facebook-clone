@@ -12,7 +12,10 @@ import { SidebarRow } from '../SidebarRows/SidebarRows';
 export interface SidebarProps {}
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
-  sidebar: {},
+  sidebar: {
+    padding: `${theme.spacing(3)}px ${theme.spacing(1.2)}px`,
+    flex: 0.33,
+  },
 }));
 
 const Sidebar: React.FC<SidebarProps> = () => {
