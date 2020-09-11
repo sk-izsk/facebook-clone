@@ -1,15 +1,15 @@
 import { Box, makeStyles } from '@material-ui/core';
 import React from 'react';
 import { AppProvider } from './AppProvider';
-import { Feed, Header, Sidebar } from './components';
+import { Header } from './components';
+import { Feed } from './screens';
+import { Sidebar } from './screens/Sidebar/Sidebar';
 import { CustomTheme } from './theme/muiTheme';
 
 export interface AppProps {}
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
-  app: {
-    height: '100vh',
-  },
+  app: {},
   appBody: {
     display: 'flex',
   },

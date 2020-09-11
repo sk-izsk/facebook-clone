@@ -1,7 +1,7 @@
 import { Box, makeStyles } from '@material-ui/core';
 import React from 'react';
+import { MessageSender, Post, StoryReel } from '../../components';
 import { CustomTheme } from '../../theme/muiTheme';
-import { StoryReel } from '../StoryReel/StoryReel';
 
 export interface FeedProps {}
 
@@ -21,6 +21,10 @@ const Feed: React.FC<FeedProps> = () => {
   return (
     <Box className={classes.feed}>
       <StoryReel />
+      <MessageSender />
+      <Post />
+      <Post />
+      <Post />
     </Box>
   );
 };
