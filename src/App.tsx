@@ -2,7 +2,7 @@ import { Box, makeStyles } from '@material-ui/core';
 import React from 'react';
 import { AppProvider } from './AppProvider';
 import { Header } from './components';
-import { Feed } from './screens';
+import { Feed, Widget } from './screens';
 import { Sidebar } from './screens/Sidebar/Sidebar';
 import { CustomTheme } from './theme/muiTheme';
 
@@ -24,6 +24,7 @@ const App: React.FC<AppProps> = () => {
         <Box className={classes.appBody}>
           <Sidebar />
           <Feed />
+          <Widget />
         </Box>
       </Box>
     </AppProvider>
