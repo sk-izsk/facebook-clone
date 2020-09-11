@@ -7,8 +7,12 @@ import { CustomTheme } from './theme/muiTheme';
 export interface AppProps {}
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
-  app: {},
-  appBody: {},
+  app: {
+    height: '100vh',
+  },
+  appBody: {
+    display: 'flex',
+  },
 }));
 
 const App: React.FC<AppProps> = () => {
