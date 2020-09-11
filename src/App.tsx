@@ -9,9 +9,7 @@ import { CustomTheme } from './theme/muiTheme';
 export interface AppProps {}
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
-  app: {
-    height: '100vh',
-  },
+  app: {},
   appBody: {
     display: 'flex',
   },
