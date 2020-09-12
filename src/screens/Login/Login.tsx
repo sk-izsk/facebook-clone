@@ -55,7 +55,6 @@ const Login: React.FC<LoginProps> = () => {
     try {
       const result: firebase.auth.UserCredential = await auth.signInWithPopup(googleAuthProvider);
       dispatch({ type: actionTypes.SET_USER, user: result.user });
-      console.log('this is result', result.user);
     } catch (err) {
       alert(err.message);
     }
