@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import { App } from './App';
-import { StateContextProvider } from './StateContextProvider';
+import { StateContextProvider } from '../../StateContextProvider';
+import { Feed } from './Feed';
 
 const mockUser = {
   image: 'fake image url',
@@ -11,10 +11,10 @@ const mockUser = {
   username: 'fake username',
 };
 
-test('App renders correctly', () => {
+test('Feed renders correctly', () => {
   const { asFragment } = render(
     <StateContextProvider initialState={{ user: mockUser }}>
-      <App />
+      <Feed />
     </StateContextProvider>,
   );
   expect(asFragment()).toMatchSnapshot();

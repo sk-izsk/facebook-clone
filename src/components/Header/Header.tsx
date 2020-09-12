@@ -87,6 +87,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const Header: React.FC<HeaderProps> = () => {
   const classes = useStyles();
+  //eslint-disable-next-line
   const [{ user }, dispatch] = useStateValue();
 
   return (

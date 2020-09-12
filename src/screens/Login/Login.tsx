@@ -50,6 +50,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const Login: React.FC<LoginProps> = () => {
   const classes = useStyles();
+  //eslint-disable-next-line
   const [state, dispatch] = useStateValue();
   const signIn = async () => {
     try {

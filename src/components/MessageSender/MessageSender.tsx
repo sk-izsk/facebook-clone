@@ -68,6 +68,7 @@ const MessageSender: React.FC<MessageSenderProps> = () => {
   const classes = useStyles();
   const [input, setInput] = useState<string>('');
   const [imageUrl, setImageUrl] = useState<string>('');
+  //eslint-disable-next-line
   const [{ user }, dispatch] = useStateValue();
 
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {

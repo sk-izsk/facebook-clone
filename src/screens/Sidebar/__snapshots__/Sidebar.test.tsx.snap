@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-2 makeStyles-sidebar-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-5 makeStyles-sidebarRow-3"
+    >
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      />
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-6 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="currentColor"
+        height="24"
+        size="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 512 512"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M76 46c-33.24 0-60 26.76-60 60v300c0 33.24 26.76 60 60 60h360c33.24 0 60-26.76 60-60V106c0-33.24-26.76-60-60-60zm120 60h120v90h90v120h-90v90H196v-90h-90V196h90z"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Covid-19 information center
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-7 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="none"
+        height="24"
+        size="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"
+        />
+        <line
+          x1="4"
+          x2="4"
+          y1="22"
+          y2="15"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Pages
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-8 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="currentColor"
+        height="24"
+        size="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 640 512"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Friends
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-9 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="currentColor"
+        height="24"
+        role="img"
+        size="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title />
+        <path
+          d="M0 11.64C0 4.95 5.24 0 12 0s12 4.95 12 11.64-5.24 11.64-12 11.64c-1.21 0-2.38-.16-3.47-.46a.96.96 0 0 0-.64.05L5.5 23.92a.96.96 0 0 1-1.35-.85l-.07-2.14a.97.97 0 0 0-.32-.68A11.39 11.39 0 0 1 0 11.64zm8.32-2.19l-3.52 5.6c-.35.53.32 1.14.82.75l3.79-2.87c.26-.2.6-.2.87 0l2.8 2.1c.84.63 2.04.4 2.6-.48l3.52-5.6c.35-.53-.32-1.13-.82-.75l-3.79 2.87c-.25.2-.6.2-.86 0l-2.8-2.1a1.8 1.8 0 0 0-2.61.48z"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Messenger
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-10 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="currentColor"
+        height="24"
+        size="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M22,5c0-1.654-1.346-3-3-3H5C3.346,2,2,3.346,2,5v2.831c0,1.053,0.382,2.01,1,2.746V19c0,1.103,0.897,2,2,2h4h6h4	c1.103,0,2-0.897,2-2v-8.424c0.618-0.735,1-1.692,1-2.746V5z M20,5v2.831c0,1.14-0.849,2.112-1.891,2.167L18,10	c-1.103,0-2-0.897-2-2V4h3C19.552,4,20,4.449,20,5z M10,4h4v4c0,1.103-0.897,2-2,2s-2-0.897-2-2V4z M4,5c0-0.551,0.448-1,1-1h3v4	c0,1.103-0.897,2-2,2L5.891,9.997C4.849,9.943,4,8.971,4,7.831V5z M10,19v-3h4v3H10z M16,19v-3c0-1.103-0.897-2-2-2h-4	c-1.103,0-2,0.897-2,2v3H5v-7.131c0.254,0.067,0.517,0.111,0.787,0.125C7.068,12.061,8.224,11.523,9,10.643	C9.733,11.475,10.807,12,12,12s2.267-0.525,3-1.357c0.776,0.88,1.934,1.419,3.213,1.351c0.271-0.014,0.533-0.058,0.787-0.125V19H16z"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Marketplace
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-11 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="currentColor"
+        height="24"
+        size="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Videos
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-12 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="currentColor"
+        height="24"
+        size="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Marketplace
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-13 makeStyles-sidebarRow-3"
+    >
+      <svg
+        color="#1877f2"
+        fill="currentColor"
+        height="24"
+        size="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(24, 119, 242);"
+        viewBox="0 0 1024 1024"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M868 732h-70.3c-4.8 0-9.3 2.1-12.3 5.8-7 8.5-14.5 16.7-22.4 24.5a353.84 353.84 0 0 1-112.7 75.9A352.8 352.8 0 0 1 512.4 866c-47.9 0-94.3-9.4-137.9-27.8a353.84 353.84 0 0 1-112.7-75.9 353.28 353.28 0 0 1-76-112.5C167.3 606.2 158 559.9 158 512s9.4-94.2 27.8-137.8c17.8-42.1 43.4-80 76-112.5s70.5-58.1 112.7-75.9c43.6-18.4 90-27.8 137.9-27.8 47.9 0 94.3 9.3 137.9 27.8 42.2 17.8 80.1 43.4 112.7 75.9 7.9 7.9 15.3 16.1 22.4 24.5 3 3.7 7.6 5.8 12.3 5.8H868c6.3 0 10.2-7 6.7-12.3C798 160.5 663.8 81.6 511.3 82 271.7 82.6 79.6 277.1 82 516.4 84.4 751.9 276.2 942 512.4 942c152.1 0 285.7-78.8 362.3-197.7 3.4-5.3-.4-12.3-6.7-12.3zm88.9-226.3L815 393.7c-5.3-4.2-13-.4-13 6.3v76H488c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h314v76c0 6.7 7.8 10.5 13 6.3l141.9-112a8 8 0 0 0 0-12.6z"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Logout
+      </h6>
+    </div>
+  </div>
+</DocumentFragment>
+`;

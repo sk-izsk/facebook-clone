@@ -1,0 +1,801 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-3 makeStyles-app-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-14 makeStyles-header-4"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-15 makeStyles-headerLeft-5"
+      >
+        <svg
+          color="#1877f2"
+          fill="currentColor"
+          height="40"
+          role="img"
+          size="40"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: rgb(24, 119, 242);"
+          viewBox="0 0 24 24"
+          width="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title />
+          <path
+            d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"
+          />
+        </svg>
+        <div
+          class="MuiBox-root MuiBox-root-16 makeStyles-headerInput-8"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            />
+          </svg>
+          <input
+            class="makeStyles-inputField-11"
+            placeholder="Search Facebook"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-17 makeStyles-headerCenter-6"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-18 makeStyles-headerOption-9"
+        >
+          <svg
+            class="makeStyles-middleIcon-12"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-19 makeStyles-headerOption-9"
+        >
+          <svg
+            class="makeStyles-middleIcon-12"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M880 305H624V192c0-17.7-14.3-32-32-32H184v-40c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v784c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V640h248v113c0 17.7 14.3 32 32 32h416c17.7 0 32-14.3 32-32V337c0-17.7-14.3-32-32-32z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-20 makeStyles-headerOption-9"
+        >
+          <svg
+            class="makeStyles-middleIcon-12"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 8H4V6h16v2zm-2-6H6v2h12V2zm4 10v8c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-8c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2zm-6 4l-6-3.27v6.53L16 16z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-21 makeStyles-headerOption-9"
+        >
+          <svg
+            class="makeStyles-middleIcon-12"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22,5c0-1.654-1.346-3-3-3H5C3.346,2,2,3.346,2,5v2.831c0,1.053,0.382,2.01,1,2.746V19c0,1.103,0.897,2,2,2h4h6h4	c1.103,0,2-0.897,2-2v-8.424c0.618-0.735,1-1.692,1-2.746V5z M20,5v2.831c0,1.14-0.849,2.112-1.891,2.167L18,10	c-1.103,0-2-0.897-2-2V4h3C19.552,4,20,4.449,20,5z M10,4h4v4c0,1.103-0.897,2-2,2s-2-0.897-2-2V4z M4,5c0-0.551,0.448-1,1-1h3v4	c0,1.103-0.897,2-2,2L5.891,9.997C4.849,9.943,4,8.971,4,7.831V5z M10,19v-3h4v3H10z M16,19v-3c0-1.103-0.897-2-2-2h-4	c-1.103,0-2,0.897-2,2v3H5v-7.131c0.254,0.067,0.517,0.111,0.787,0.125C7.068,12.061,8.224,11.523,9,10.643	C9.733,11.475,10.807,12,12,12s2.267-0.525,3-1.357c0.776,0.88,1.934,1.419,3.213,1.351c0.271-0.014,0.533-0.058,0.787-0.125V19H16z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-22 makeStyles-headerOption-9"
+        >
+          <svg
+            class="makeStyles-middleIcon-12"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.5 12c1.38 0 2.49-1.12 2.49-2.5S17.88 7 16.5 7C15.12 7 14 8.12 14 9.5s1.12 2.5 2.5 2.5zM9 11c1.66 0 2.99-1.34 2.99-3S10.66 5 9 5C7.34 5 6 6.34 6 8s1.34 3 3 3zm7.5 3c-1.83 0-5.5.92-5.5 2.75V19h11v-2.25c0-1.83-3.67-2.75-5.5-2.75zM9 13c-2.33 0-7 1.17-7 3.5V19h7v-2.25c0-.85.33-2.34 2.37-3.47C10.5 13.1 9.66 13 9 13z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-23 makeStyles-headerRight-7"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-24 makeStyles-headerInfo-10"
+        >
+          <div
+            class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiAvatar-fallback"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              />
+            </svg>
+          </div>
+          <h5
+            class="MuiTypography-root makeStyles-userName-13 MuiTypography-h5"
+          />
+        </div>
+        <button
+          class="MuiButtonBase-root MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              size="24"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="MuiButtonBase-root MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              size="24"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="MuiButtonBase-root MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              role="img"
+              size="24"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title />
+              <path
+                d="M0 11.64C0 4.95 5.24 0 12 0s12 4.95 12 11.64-5.24 11.64-12 11.64c-1.21 0-2.38-.16-3.47-.46a.96.96 0 0 0-.64.05L5.5 23.92a.96.96 0 0 1-1.35-.85l-.07-2.14a.97.97 0 0 0-.32-.68A11.39 11.39 0 0 1 0 11.64zm8.32-2.19l-3.52 5.6c-.35.53.32 1.14.82.75l3.79-2.87c.26-.2.6-.2.87 0l2.8 2.1c.84.63 2.04.4 2.6-.48l3.52-5.6c.35-.53-.32-1.13-.82-.75l-3.79 2.87c-.25.2-.6.2-.86 0l-2.8-2.1a1.8 1.8 0 0 0-2.61.48z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="MuiButtonBase-root MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              size="24"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.58 4.08L6.15 2.65C3.75 4.48 2.17 7.3 2.03 10.5h2c.15-2.65 1.51-4.97 3.55-6.42zm12.39 6.42h2c-.15-3.2-1.73-6.02-4.12-7.85l-1.42 1.43c2.02 1.45 3.39 3.77 3.54 6.42zM18 11c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2v-5zm-6 11c.14 0 .27-.01.4-.04.65-.14 1.18-.58 1.44-1.18.1-.24.15-.5.15-.78h-4c.01 1.1.9 2 2.01 2z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="MuiButtonBase-root MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              size="24"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-25 makeStyles-appBody-2"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-27 makeStyles-sidebar-26"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-30 makeStyles-sidebarRow-28"
+        >
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          />
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-31 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="currentColor"
+            height="24"
+            size="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 512 512"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M76 46c-33.24 0-60 26.76-60 60v300c0 33.24 26.76 60 60 60h360c33.24 0 60-26.76 60-60V106c0-33.24-26.76-60-60-60zm120 60h120v90h90v120h-90v90H196v-90h-90V196h90z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Covid-19 information center
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-32 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="none"
+            height="24"
+            size="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"
+            />
+            <line
+              x1="4"
+              x2="4"
+              y1="22"
+              y2="15"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Pages
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-33 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="currentColor"
+            height="24"
+            size="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 640 512"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Friends
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-34 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="currentColor"
+            height="24"
+            role="img"
+            size="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title />
+            <path
+              d="M0 11.64C0 4.95 5.24 0 12 0s12 4.95 12 11.64-5.24 11.64-12 11.64c-1.21 0-2.38-.16-3.47-.46a.96.96 0 0 0-.64.05L5.5 23.92a.96.96 0 0 1-1.35-.85l-.07-2.14a.97.97 0 0 0-.32-.68A11.39 11.39 0 0 1 0 11.64zm8.32-2.19l-3.52 5.6c-.35.53.32 1.14.82.75l3.79-2.87c.26-.2.6-.2.87 0l2.8 2.1c.84.63 2.04.4 2.6-.48l3.52-5.6c.35-.53-.32-1.13-.82-.75l-3.79 2.87c-.25.2-.6.2-.86 0l-2.8-2.1a1.8 1.8 0 0 0-2.61.48z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Messenger
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-35 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="currentColor"
+            height="24"
+            size="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22,5c0-1.654-1.346-3-3-3H5C3.346,2,2,3.346,2,5v2.831c0,1.053,0.382,2.01,1,2.746V19c0,1.103,0.897,2,2,2h4h6h4	c1.103,0,2-0.897,2-2v-8.424c0.618-0.735,1-1.692,1-2.746V5z M20,5v2.831c0,1.14-0.849,2.112-1.891,2.167L18,10	c-1.103,0-2-0.897-2-2V4h3C19.552,4,20,4.449,20,5z M10,4h4v4c0,1.103-0.897,2-2,2s-2-0.897-2-2V4z M4,5c0-0.551,0.448-1,1-1h3v4	c0,1.103-0.897,2-2,2L5.891,9.997C4.849,9.943,4,8.971,4,7.831V5z M10,19v-3h4v3H10z M16,19v-3c0-1.103-0.897-2-2-2h-4	c-1.103,0-2,0.897-2,2v3H5v-7.131c0.254,0.067,0.517,0.111,0.787,0.125C7.068,12.061,8.224,11.523,9,10.643	C9.733,11.475,10.807,12,12,12s2.267-0.525,3-1.357c0.776,0.88,1.934,1.419,3.213,1.351c0.271-0.014,0.533-0.058,0.787-0.125V19H16z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Marketplace
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-36 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="currentColor"
+            height="24"
+            size="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Videos
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-37 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="currentColor"
+            height="24"
+            size="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Marketplace
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-38 makeStyles-sidebarRow-28"
+        >
+          <svg
+            color="#1877f2"
+            fill="currentColor"
+            height="24"
+            size="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(24, 119, 242);"
+            viewBox="0 0 1024 1024"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M868 732h-70.3c-4.8 0-9.3 2.1-12.3 5.8-7 8.5-14.5 16.7-22.4 24.5a353.84 353.84 0 0 1-112.7 75.9A352.8 352.8 0 0 1 512.4 866c-47.9 0-94.3-9.4-137.9-27.8a353.84 353.84 0 0 1-112.7-75.9 353.28 353.28 0 0 1-76-112.5C167.3 606.2 158 559.9 158 512s9.4-94.2 27.8-137.8c17.8-42.1 43.4-80 76-112.5s70.5-58.1 112.7-75.9c43.6-18.4 90-27.8 137.9-27.8 47.9 0 94.3 9.3 137.9 27.8 42.2 17.8 80.1 43.4 112.7 75.9 7.9 7.9 15.3 16.1 22.4 24.5 3 3.7 7.6 5.8 12.3 5.8H868c6.3 0 10.2-7 6.7-12.3C798 160.5 663.8 81.6 511.3 82 271.7 82.6 79.6 277.1 82 516.4 84.4 751.9 276.2 942 512.4 942c152.1 0 285.7-78.8 362.3-197.7 3.4-5.3-.4-12.3-6.7-12.3zm88.9-226.3L815 393.7c-5.3-4.2-13-.4-13 6.3v76H488c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h314v76c0 6.7 7.8 10.5 13 6.3l141.9-112a8 8 0 0 0 0-12.6z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root makeStyles-title-29 MuiTypography-h6"
+          >
+            Logout
+          </h6>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-40 makeStyles-feed-39"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-42 makeStyles-storyReel-41"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-46 makeStyles-story-43"
+            style="background-image: url(https://cdn140.picsart.com/327464379069201.jpg?type=webp&to=crop&r=256);"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-45"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://cdn131.picsart.com/323779276307201.jpg?type=webp&to=crop&r=256"
+              />
+            </div>
+            <h6
+              class="MuiTypography-root makeStyles-title-44 MuiTypography-h6"
+            >
+              Model
+            </h6>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-47 makeStyles-story-43"
+            style="background-image: url(https://cdn131.picsart.com/315934060092201.jpg?type=webp&to=crop&r=256);"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-45"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://cdn131.picsart.com/323038550298201.jpg?type=webp&to=crop&r=256"
+              />
+            </div>
+            <h6
+              class="MuiTypography-root makeStyles-title-44 MuiTypography-h6"
+            >
+              Bearded Guy
+            </h6>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-48 makeStyles-story-43"
+            style="background-image: url(https://cdn141.picsart.com/325429489094201.jpg?type=webp&to=crop&r=256);"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-45"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://cdn131.picsart.com/325488229053201.jpg?type=webp&to=crop&r=256"
+              />
+            </div>
+            <h6
+              class="MuiTypography-root makeStyles-title-44 MuiTypography-h6"
+            >
+              Photoshop
+            </h6>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-49 makeStyles-story-43"
+            style="background-image: url(https://images.theconversation.com/files/693/original/aapone-20110118000290280654-file_usa_apple_steve_jobs-original.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip);"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-45"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://www.pioneeringminds.com/wp-content/uploads/2018/10/Steve-Jobs-1440x960.jpg"
+              />
+            </div>
+            <h6
+              class="MuiTypography-root makeStyles-title-44 MuiTypography-h6"
+            >
+              Steve Jobs
+            </h6>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-50 makeStyles-story-43"
+            style="background-image: url(https://i.pinimg.com/736x/d6/46/8d/d6468d7441b61d051a8c675adbeec09f.jpg);"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-45"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://img.cinemablend.com/filter:scale/quill/3/3/4/1/1/5/33411540ffe2a4bacfb1824adc71db580b8c7ffd.jpg?mw=600"
+              />
+            </div>
+            <h6
+              class="MuiTypography-root makeStyles-title-44 MuiTypography-h6"
+            >
+              Thanos
+            </h6>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-51 makeStyles-story-43"
+            style="background-image: url(https://cdna.artstation.com/p/assets/images/images/017/955/070/large/jackson-caspersz-ironman-snap.jpg?1557977565);"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-45"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://lc-imageresizer-live-s.legocdn.com/resize/ironman_slider_ironman-photo?width=1600&imageUrl=https%3A%2F%2Fwww.lego.com%2Fr%2Fwww%2Fr%2Fportals%2F-%2Fmedia%2Fcampaigns%2Fgrownup%2Fzebra%2Fironman%2F02-intro-section%2Fironman_slider_ironman-photo.jpg"
+              />
+            </div>
+            <h6
+              class="MuiTypography-root makeStyles-title-44 MuiTypography-h6"
+            >
+              Iron Man
+            </h6>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-52 makeStyles-story-43"
+            style="background-image: url(https://images.googlycricket.net/wp-content/uploads/2017/09/Australian-Batsman-Ricky-Ponting-Wallpaper.jpg);"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-45"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://pbs.twimg.com/profile_images/1204204456092397568/sKIKwz3S_400x400.jpg"
+              />
+            </div>
+            <h6
+              class="MuiTypography-root makeStyles-title-44 MuiTypography-h6"
+            >
+              Ricky Ponting
+            </h6>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-62 makeStyles-messageSender-53"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-63 makeStyles-messageSenderTop-54"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiAvatar-fallback"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                />
+              </svg>
+            </div>
+            <form
+              action=""
+              class="makeStyles-form-58"
+            >
+              <input
+                class="makeStyles-messageSenderInput-56 makeStyles-inputField-59"
+                placeholder="What's on your mind undefined ?"
+                type="text"
+                value=""
+              />
+              <input
+                class="makeStyles-inputField-59"
+                placeholder="Image URL (Optional)"
+                type="text"
+                value=""
+              />
+              <button
+                class="makeStyles-btn-60"
+                type="submit"
+              >
+                Post
+              </button>
+            </form>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-64 makeStyles-messageSenderBottom-55"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-65 makeStyles-messageSenderOption-57"
+            >
+              <svg
+                color="#ff0000"
+                fill="currentColor"
+                height="24"
+                size="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(255, 0, 0);"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root makeStyles-text-61 MuiTypography-body1"
+              >
+                Live video
+              </p>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-66 makeStyles-messageSenderOption-57"
+            >
+              <svg
+                color="green"
+                fill="currentColor"
+                height="24"
+                size="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: green;"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root makeStyles-text-61 MuiTypography-body1"
+              >
+                Photo/Video
+              </p>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-67 makeStyles-messageSenderOption-57"
+            >
+              <svg
+                color="orange"
+                fill="currentColor"
+                height="24"
+                size="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: orange;"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root makeStyles-text-61 MuiTypography-body1"
+              >
+                Feeling/Activity
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-70 makeStyles-widgets-68"
+      >
+        <iframe
+          allow="encrypted-media"
+          class="makeStyles-plugin-69"
+          frameborder="0"
+          height="100%"
+          scrolling="no"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFac2Pedia-1818827908414968%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          title="fb-plugin"
+          width="340"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

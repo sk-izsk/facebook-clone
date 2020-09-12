@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoryReel renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-2 makeStyles-storyReel-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-6 makeStyles-story-3"
+      style="background-image: url(https://cdn140.picsart.com/327464379069201.jpg?type=webp&to=crop&r=256);"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-5"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="https://cdn131.picsart.com/323779276307201.jpg?type=webp&to=crop&r=256"
+        />
+      </div>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Model
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-7 makeStyles-story-3"
+      style="background-image: url(https://cdn131.picsart.com/315934060092201.jpg?type=webp&to=crop&r=256);"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-5"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="https://cdn131.picsart.com/323038550298201.jpg?type=webp&to=crop&r=256"
+        />
+      </div>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Bearded Guy
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-8 makeStyles-story-3"
+      style="background-image: url(https://cdn141.picsart.com/325429489094201.jpg?type=webp&to=crop&r=256);"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-5"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="https://cdn131.picsart.com/325488229053201.jpg?type=webp&to=crop&r=256"
+        />
+      </div>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Photoshop
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-9 makeStyles-story-3"
+      style="background-image: url(https://images.theconversation.com/files/693/original/aapone-20110118000290280654-file_usa_apple_steve_jobs-original.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip);"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-5"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="https://www.pioneeringminds.com/wp-content/uploads/2018/10/Steve-Jobs-1440x960.jpg"
+        />
+      </div>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Steve Jobs
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-10 makeStyles-story-3"
+      style="background-image: url(https://i.pinimg.com/736x/d6/46/8d/d6468d7441b61d051a8c675adbeec09f.jpg);"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-5"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="https://img.cinemablend.com/filter:scale/quill/3/3/4/1/1/5/33411540ffe2a4bacfb1824adc71db580b8c7ffd.jpg?mw=600"
+        />
+      </div>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Thanos
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-11 makeStyles-story-3"
+      style="background-image: url(https://cdna.artstation.com/p/assets/images/images/017/955/070/large/jackson-caspersz-ironman-snap.jpg?1557977565);"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-5"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="https://lc-imageresizer-live-s.legocdn.com/resize/ironman_slider_ironman-photo?width=1600&imageUrl=https%3A%2F%2Fwww.lego.com%2Fr%2Fwww%2Fr%2Fportals%2F-%2Fmedia%2Fcampaigns%2Fgrownup%2Fzebra%2Fironman%2F02-intro-section%2Fironman_slider_ironman-photo.jpg"
+        />
+      </div>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Iron Man
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-12 makeStyles-story-3"
+      style="background-image: url(https://images.googlycricket.net/wp-content/uploads/2017/09/Australian-Batsman-Ricky-Ponting-Wallpaper.jpg);"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-5"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="https://pbs.twimg.com/profile_images/1204204456092397568/sKIKwz3S_400x400.jpg"
+        />
+      </div>
+      <h6
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+      >
+        Ricky Ponting
+      </h6>
+    </div>
+  </div>
+</DocumentFragment>
+`;

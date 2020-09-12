@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-14 makeStyles-post-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-15 makeStyles-postTop-2"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-postAvatar-3 MuiAvatar-colorDefault"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiAvatar-fallback"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-16 makeStyles-postTopInfo-4"
+      >
+        <p
+          class="MuiTypography-root makeStyles-userName-5 MuiTypography-body1"
+        />
+        <p
+          class="MuiTypography-root makeStyles-timeStamp-6 MuiTypography-body1"
+        >
+           Invalid Date 
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-17 makeStyles-postBottom-7"
+    >
+      <p
+        class="MuiTypography-root makeStyles-message-9 MuiTypography-body1"
+      />
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-18 makeStyles-postImage-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-image-10"
+        src="fake image url"
+      />
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-19 makeStyles-postOptions-11"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-20 makeStyles-postOption-12"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          size="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root makeStyles-optionText-13 MuiTypography-body1"
+        >
+          Like
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-21 makeStyles-postOption-12"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          size="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root makeStyles-optionText-13 MuiTypography-body1"
+        >
+          Comment
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-22 makeStyles-postOption-12"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          size="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 3L3 10.53v.98l6.84 2.65L12.48 21h.98L21 3z"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root makeStyles-optionText-13 MuiTypography-body1"
+        >
+          Share
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-23 makeStyles-postOption-12"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          size="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+          />
+        </svg>
+        <svg
+          fill="currentColor"
+          height="24"
+          size="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

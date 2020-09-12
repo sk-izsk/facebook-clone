@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const App: React.FC<AppProps> = () => {
   const classes = useStyles();
+  //eslint-disable-next-line
   const [{ user }, dispatch] = useStateValue();
   return (
     <AppProvider initialState={initialState} reducer={reducer}>
