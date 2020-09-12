@@ -3,16 +3,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/sk-izsk/izsk-corona-tracker-web">
-    <img src="public/favicon.svg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/sk-izsk/facebook-clone">
+    <img src="public/fb-logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Corona tracker</h3>
+  <h3 align="center">Facebook Clone</h3>
 
   <p align="center">
     Built in React with love and passion
     <br />
-    <a href="https://izsk-covid-tracker.netlify.app"><strong>Explore the website »</strong></a>
+    <a href="https://izsk-fb.netlify.app"><strong>Explore the website »</strong></a>
     <br />
     <br />
   </p>
@@ -36,9 +36,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://izsk-covid-tracker.netlify.app)
+[![Product Name Screen Shot][product-screenshot]](https://izsk-fb.netlify.app)
 
-I love coding specially on javascript/typescript. This is my small effort to show my skill and knowledge so far. As headline suggest I create this covid tracker just out of my passion and 💕 React.
+I love coding specially on javascript/typescript. This is my small effort to show my skill and knowledge so far. As headline suggest I create this facebook clone just out of my passion and 💕 React.
 
 ### Built With
 
@@ -48,12 +48,8 @@ The Frontend of this covid tracker build mainly on React along with some other i
 
 - [React](https://reactjs.org)
 - [React-Hooks](https://reactjs.org)
-- [React router dom](https://reactrouter.com)
-- [Redux tool kit](https://redux-toolkit.js.org)
-- [React-Redux](https://react-redux.js.org)
-- [Redux thunk](https://github.com/reduxjs/redux-thunk)
 - [Material UI](https://material-ui.com)
-- [Axios](https://github.com/axios/axios)
+- [React-Icons](https://react-icons.github.io/react-icons/)
 - [Typescript](https://www.typescriptlang.org)
 - [Netlify(deploy)](https://www.netlify.com)
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
@@ -65,8 +61,8 @@ The Frontend of this covid tracker build mainly on React along with some other i
 
 The backend of this project (API) used from technology mention below
 
-- [Corona tracking api](https://corona.lmao.ninja)
-- [Secondary Corona tracking api](https://github.com/mathdroid/covid-19-api)
+- [Firebase](https://firebase.google.com)
+- [Google Auth](https://firebase.google.com)
 
 <!-- GETTING STARTED -->
 
@@ -89,7 +85,7 @@ npm install yarn
 1. Clone the repo
 
 ```sh
-git clone https://github.com/sk-izsk/izsk-corona-tracker-web.git
+git clone https://github.com/sk-izsk/facebook-clone.git
 ```
 
 2. Install NPM packages
@@ -120,11 +116,11 @@ yarn prettier:fix
 
 Shaikh Zeeshan Murshed - [@Sk_iZsk](https://twitter.com/Sk_iZsk) - sk.zeeshan1992@gmail.com - [Portfolio](https://izsk.netlify.app)
 
-Project Link: [https://github.com/sk-izsk/izsk-corona-tracker-web.git](https://github.com/sk-izsk/izsk-corona-tracker-web.git)
+Project Link: [https://github.com/sk-izsk/facebook-clone.git](https://github.com/sk-izsk/facebook-clone.git)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/skizsk/
-[product-screenshot]: README/covid-tracker.gif
+[product-screenshot]: README/facebook-clone.gif
