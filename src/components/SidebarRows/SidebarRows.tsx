@@ -6,6 +6,7 @@ export interface SidebarRowProps {
   src?: string;
   Icon?: JSX.Element;
   title?: string;
+  onClick?: () => void;
 }
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
@@ -26,10 +27,10 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
   },
 }));
 
-const SidebarRow: React.FC<SidebarRowProps> = ({ Icon, src, title }) => {
+const SidebarRow: React.FC<SidebarRowProps> = ({ Icon, src, title, onClick }) => {
   const classes = useStyles();
   return (
-    <Box className={classes.sidebarRow}>
+    <Box onClick={onClick} className={classes.sidebarRow}>
       {src && <Avatar src={src} />}
       {Icon && Icon}
       <Typography className={classes.title} variant='h6'>

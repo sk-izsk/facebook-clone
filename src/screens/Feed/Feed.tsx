@@ -1,5 +1,6 @@
 import { Box, makeStyles } from '@material-ui/core';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { fireBaseDb } from '../../api';
 import { MessageSender, Post, StoryReel } from '../../components';
 import { CustomTheme } from '../../theme/muiTheme';
 
@@ -18,13 +19,30 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const Feed: React.FC<FeedProps> = () => {
   const classes = useStyles();
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    fireBaseDb
+      .collection('posts')
+      .orderBy('timestamp', 'desc')
+      .onSnapshot((snapShot: any) => setPosts(snapShot.docs.map((doc: any) => ({ id: doc.id, data: doc.data() }))));
+  }, []);
+
   return (
     <Box className={classes.feed}>
       <StoryReel />
       <MessageSender />
-      <Post />
-      <Post />
-      <Post />
+      {console.log('this is post', posts)}
+      {posts.map((post: any) => (
+        <Post
+          key={post.id}
+          profilePic={post.data.profilePic}
+          message={post.data.message}
+          timeStamp={post.data.timestamp}
+          userName={post.data.username}
+          image={post.data.image}
+        />
+      ))}
     </Box>
   );
 };

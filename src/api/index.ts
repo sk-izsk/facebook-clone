@@ -1,1 +1,1 @@
-export { firebaseConfig } from './firebase';
+export { auth, fireBaseApp, firebaseConfig, fireBaseDb, googleAuthProvider } from './firebase';
