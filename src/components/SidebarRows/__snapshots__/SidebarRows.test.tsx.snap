@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarRow renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-3 makeStyles-sidebarRow-1"
+  >
+    <h6
+      class="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+    />
+  </div>
+</DocumentFragment>
+`;

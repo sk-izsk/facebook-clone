@@ -32,7 +32,6 @@ const Feed: React.FC<FeedProps> = () => {
     <Box className={classes.feed}>
       <StoryReel />
       <MessageSender />
-      {console.log('this is post', posts)}
       {posts.map((post: any) => (
         <Post
           key={post.id}

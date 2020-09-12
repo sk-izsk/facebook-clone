@@ -22,13 +22,6 @@ let muiTheme: Theme = createMuiTheme({
     background: {
       default: '#f1f2f5',
     },
-    // error: {
-    //   // light: colors.redLight,
-    //   // main: colors.red,
-    // },
-    // info: {
-    //   // main: colors.darkBlue,
-    // },
     primary: {
       main: colors.blue,
       light: colors.white,
@@ -39,20 +32,6 @@ let muiTheme: Theme = createMuiTheme({
       dark: colors.orange,
       light: colors.green,
     },
-    // success: {
-    //   contrastText: colors.white,
-    //   main: colors.pink,
-    //   light: colors.green,
-    // },
-    // text: {
-    //   primary: '#4A4A4A',
-    //   secondary: colors.darkBlue,
-    // },
-    // warning: {
-    //   contrastText: colors.white,
-    //   main: colors.yellow,
-    //   light: colors.lighterYellow,
-    // },
     grey: {
       400: colors.gray,
       300: colors.secondaryGray,

@@ -50,12 +50,12 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const Login: React.FC<LoginProps> = () => {
   const classes = useStyles();
+  //eslint-disable-next-line
   const [state, dispatch] = useStateValue();
   const signIn = async () => {
     try {
       const result: firebase.auth.UserCredential = await auth.signInWithPopup(googleAuthProvider);
       dispatch({ type: actionTypes.SET_USER, user: result.user });
-      console.log('this is result', result.user);
     } catch (err) {
       alert(err.message);
     }

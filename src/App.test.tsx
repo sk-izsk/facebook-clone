@@ -1,9 +1,21 @@
-import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
+import React from 'react';
+import { App } from './App';
+import { StateContextProvider } from './StateContextProvider';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+const mockUser = {
+  image: 'fake image url',
+  message: 'fake message',
+  profilePic: 'fake profile pic',
+  timestamp: 'fake time stamp',
+  username: 'fake username',
+};
+
+test('App renders correctly', () => {
+  const { asFragment } = render(
+    <StateContextProvider initialState={{ user: mockUser }}>
+      <App />
+    </StateContextProvider>,
+  );
+  expect(asFragment()).toMatchSnapshot();
 });

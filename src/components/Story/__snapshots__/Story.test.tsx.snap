@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Story renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-4 makeStyles-story-1"
+  >
+    <div
+      class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-3 MuiAvatar-colorDefault"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiAvatar-fallback"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+        />
+      </svg>
+    </div>
+    <h6
+      class="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+    >
+      mock title
+    </h6>
+  </div>
+</DocumentFragment>
+`;
