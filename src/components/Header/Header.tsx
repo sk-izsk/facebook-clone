@@ -1,13 +1,11 @@
 import { Avatar, Box, IconButton, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
-import { AiFillFlag, AiFillHome } from 'react-icons/ai';
-import { BiStoreAlt } from 'react-icons/bi';
+import { IconType } from 'react-icons';
 import { FaSearch } from 'react-icons/fa';
-import { IoMdAdd } from 'react-icons/io';
-import { MdExpandMore, MdForum, MdNotificationsActive, MdSubscriptions, MdSupervisorAccount } from 'react-icons/md';
-import { SiFacebook, SiMessenger } from 'react-icons/si';
+import { SiFacebook } from 'react-icons/si';
 import { useStateValue } from '../../StateContextProvider';
 import { CustomTheme, theme } from '../../theme/muiTheme';
+import { headerOptionIcons, headerRightIcons } from '../../utils';
 
 export interface HeaderProps {}
 
@@ -100,21 +98,11 @@ const Header: React.FC<HeaderProps> = () => {
         </Box>
       </Box>
       <Box className={classes.headerCenter}>
-        <Box className={classes.headerOption}>
-          <AiFillHome className={classes.middleIcon} size={theme.spacing(4)} />
-        </Box>
-        <Box className={classes.headerOption}>
-          <AiFillFlag className={classes.middleIcon} size={theme.spacing(4)} />
-        </Box>
-        <Box className={classes.headerOption}>
-          <MdSubscriptions className={classes.middleIcon} size={theme.spacing(4)} />
-        </Box>
-        <Box className={classes.headerOption}>
-          <BiStoreAlt className={classes.middleIcon} size={theme.spacing(4)} />
-        </Box>
-        <Box className={classes.headerOption}>
-          <MdSupervisorAccount className={classes.middleIcon} size={theme.spacing(4)} />
-        </Box>
+        {headerOptionIcons.map((Icon: IconType, index: number) => (
+          <Box className={classes.headerOption} key={index}>
+            <Icon className={classes.middleIcon} size={theme.spacing(4)} />
+          </Box>
+        ))}
       </Box>
       <Box className={classes.headerRight}>
         <Box className={classes.headerInfo}>
@@ -123,21 +111,11 @@ const Header: React.FC<HeaderProps> = () => {
             {user.displayName}
           </Typography>
         </Box>
-        <IconButton>
-          <IoMdAdd size={theme.spacing(3)} />
-        </IconButton>
-        <IconButton>
-          <MdForum size={theme.spacing(3)} />
-        </IconButton>
-        <IconButton>
-          <SiMessenger size={theme.spacing(3)} />
-        </IconButton>
-        <IconButton>
-          <MdNotificationsActive size={theme.spacing(3)} />
-        </IconButton>
-        <IconButton>
-          <MdExpandMore size={theme.spacing(3)} />
-        </IconButton>
+        {headerRightIcons.map((Icon: IconType, index: number) => (
+          <IconButton key={index}>
+            <Icon size={theme.spacing(3)} />
+          </IconButton>
+        ))}
       </Box>
     </Box>
   );

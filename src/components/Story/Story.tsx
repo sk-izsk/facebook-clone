@@ -3,7 +3,7 @@ import React from 'react';
 import { CustomTheme } from '../../theme/muiTheme';
 
 export interface StoryProps {
-  image?: any;
+  image?: string;
   profileSrc?: string;
   title?: string;
 }

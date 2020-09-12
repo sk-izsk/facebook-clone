@@ -11,10 +11,16 @@ const mockUser = {
   username: 'fake username',
 };
 
+const mockStoryData = {
+  image: 'mock image',
+  profilePic: 'fake profile pic',
+  title: 'mock title',
+};
+
 test('Story renders correctly', () => {
   const { asFragment } = render(
     <StateContextProvider initialState={{ user: mockUser }}>
-      <Story />
+      <Story {...mockStoryData} />
     </StateContextProvider>,
   );
   expect(asFragment()).toMatchSnapshot();

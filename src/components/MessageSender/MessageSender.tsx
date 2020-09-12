@@ -2,10 +2,11 @@ import { Avatar, Box, makeStyles, Typography } from '@material-ui/core';
 import clsx from 'clsx';
 import firebase from 'firebase';
 import React, { useState } from 'react';
-import { MdInsertEmoticon, MdPhotoLibrary, MdVideocam } from 'react-icons/md';
 import { fireBaseDb } from '../../api';
 import { useStateValue } from '../../StateContextProvider';
 import { CustomTheme, theme } from '../../theme/muiTheme';
+import { messageSenderIcon } from '../../utils';
+import { MessageSenderIcon } from '../../utils/IconsArray';
 
 export interface MessageSenderProps {}
 
@@ -108,18 +109,12 @@ const MessageSender: React.FC<MessageSenderProps> = () => {
         </form>
       </Box>
       <Box className={classes.messageSenderBottom}>
-        <Box className={classes.messageSenderOption}>
-          <MdVideocam size={theme.spacing(3)} color={theme.palette.secondary.main} />
-          <Typography className={classes.text}>Live video</Typography>
-        </Box>
-        <Box className={classes.messageSenderOption}>
-          <MdPhotoLibrary size={theme.spacing(3)} color={theme.palette.secondary.light} />
-          <Typography className={classes.text}>Photo/Video</Typography>
-        </Box>
-        <Box className={classes.messageSenderOption}>
-          <MdInsertEmoticon size={theme.spacing(3)} color={theme.palette.secondary.dark} />
-          <Typography className={classes.text}>Feeling/Activity</Typography>
-        </Box>
+        {messageSenderIcon.map((messageSender: MessageSenderIcon) => (
+          <Box className={classes.messageSenderOption} key={messageSender.text}>
+            <messageSender.Icon size={theme.spacing(3)} color={theme.palette.secondary.main} />
+            <Typography className={classes.text}>{messageSender.text}</Typography>
+          </Box>
+        ))}
       </Box>
     </Box>
   );

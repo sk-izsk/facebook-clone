@@ -4,7 +4,6 @@ exports[`Story renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="MuiBox-root MuiBox-root-4 makeStyles-story-1"
-    style="background-image: url(undefined);"
   >
     <div
       class="MuiAvatar-root MuiAvatar-circle makeStyles-storyAvatar-3 MuiAvatar-colorDefault"
@@ -22,7 +21,9 @@ exports[`Story renders correctly 1`] = `
     </div>
     <h6
       class="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
-    />
+    >
+      mock title
+    </h6>
   </div>
 </DocumentFragment>
 `;

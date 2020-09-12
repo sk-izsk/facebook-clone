@@ -211,13 +211,13 @@ exports[`Feed renders correctly 1`] = `
           class="MuiBox-root MuiBox-root-28 makeStyles-messageSenderOption-19"
         >
           <svg
-            color="green"
+            color="#ff0000"
             fill="currentColor"
             height="24"
             size="24"
             stroke="currentColor"
             stroke-width="0"
-            style="color: green;"
+            style="color: rgb(255, 0, 0);"
             viewBox="0 0 24 24"
             width="24"
             xmlns="http://www.w3.org/2000/svg"
@@ -236,13 +236,13 @@ exports[`Feed renders correctly 1`] = `
           class="MuiBox-root MuiBox-root-29 makeStyles-messageSenderOption-19"
         >
           <svg
-            color="orange"
+            color="#ff0000"
             fill="currentColor"
             height="24"
             size="24"
             stroke="currentColor"
             stroke-width="0"
-            style="color: orange;"
+            style="color: rgb(255, 0, 0);"
             viewBox="0 0 24 24"
             width="24"
             xmlns="http://www.w3.org/2000/svg"
