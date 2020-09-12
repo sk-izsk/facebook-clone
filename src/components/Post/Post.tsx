@@ -5,7 +5,7 @@ import { CustomTheme, theme } from '../../theme/muiTheme';
 
 export interface PostProps {
   profilePic?: string;
-  image?: string;
+  image: string;
   userName?: string;
   timeStamp?: any;
   message?: string;
@@ -74,20 +74,21 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const Post: React.FC<PostProps> = ({ profilePic, image, userName, timeStamp, message }) => {
   const classes = useStyles();
+
   return (
     <Box className={classes.post}>
       <Box className={classes.postTop}>
         <Avatar src={profilePic} className={classes.postAvatar} />
         <Box className={classes.postTopInfo}>
           <Typography className={classes.userName}>{userName}</Typography>
-          <Typography className={classes.timeStamp}>time stamp</Typography>
+          <Typography className={classes.timeStamp}> {new Date(timeStamp?.toDate()).toLocaleTimeString()} </Typography>
         </Box>
       </Box>
       <Box className={classes.postBottom}>
         <Typography className={classes.message}>{message}</Typography>
       </Box>
       <Box className={classes.postImage}>
-        <img className={classes.image} src={image} alt='' />
+        {image.length > 0 && <img className={classes.image} src={image} alt='' />}
       </Box>
       <Box className={classes.postOptions}>
         <Box className={classes.postOption}>

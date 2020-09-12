@@ -6,6 +6,7 @@ import { FaSearch } from 'react-icons/fa';
 import { IoMdAdd } from 'react-icons/io';
 import { MdExpandMore, MdForum, MdNotificationsActive, MdSubscriptions, MdSupervisorAccount } from 'react-icons/md';
 import { SiFacebook, SiMessenger } from 'react-icons/si';
+import { useStateValue } from '../../StateContextProvider';
 import { CustomTheme, theme } from '../../theme/muiTheme';
 
 export interface HeaderProps {}
@@ -86,6 +87,8 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const Header: React.FC<HeaderProps> = () => {
   const classes = useStyles();
+  const [{ user }, dispatch] = useStateValue();
+
   return (
     <Box className={classes.header}>
       <Box className={classes.headerLeft}>
@@ -114,9 +117,9 @@ const Header: React.FC<HeaderProps> = () => {
       </Box>
       <Box className={classes.headerRight}>
         <Box className={classes.headerInfo}>
-          <Avatar />
+          <Avatar src={user.photoURL} />
           <Typography className={classes.userName} variant='h5'>
-            Zeeshan
+            {user.displayName}
           </Typography>
         </Box>
         <IconButton>

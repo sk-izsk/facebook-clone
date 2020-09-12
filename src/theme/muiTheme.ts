@@ -6,7 +6,7 @@ const colors = {
   blue: '#1877f2',
   boxShadow: 'rgba(0,0,0,0.75)',
   gray: '#eff2f5',
-  secondaryGray: 'gray',
+  secondaryGray: '##808080	',
   lightGray: 'lightgray',
   red: '#ff0000',
   green: 'green',

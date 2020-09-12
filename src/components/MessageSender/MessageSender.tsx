@@ -1,7 +1,10 @@
 import { Avatar, Box, makeStyles, Typography } from '@material-ui/core';
 import clsx from 'clsx';
+import firebase from 'firebase';
 import React, { useState } from 'react';
 import { MdInsertEmoticon, MdPhotoLibrary, MdVideocam } from 'react-icons/md';
+import { fireBaseDb } from '../../api';
+import { useStateValue } from '../../StateContextProvider';
 import { CustomTheme, theme } from '../../theme/muiTheme';
 
 export interface MessageSenderProps {}
@@ -65,20 +68,29 @@ const MessageSender: React.FC<MessageSenderProps> = () => {
   const classes = useStyles();
   const [input, setInput] = useState<string>('');
   const [imageUrl, setImageUrl] = useState<string>('');
+  const [{ user }, dispatch] = useStateValue();
+
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault();
+    fireBaseDb.collection('posts').add({
+      message: input,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+      profilePic: user.photoURL,
+      username: user.displayName,
+      image: imageUrl,
+    });
     setInput('');
     setImageUrl('');
   };
   return (
     <Box className={classes.messageSender}>
       <Box className={classes.messageSenderTop}>
-        <Avatar />
+        <Avatar src={user.photoURL} />
         <form className={classes.form} action=''>
           <input
             className={clsx([classes.messageSenderInput, classes.inputField])}
             type='text'
-            placeholder="What's on your mind ?"
+            placeholder={`What's on your mind ${user.displayName} ?`}
             value={input}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)}
           />
